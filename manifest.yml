@@ -1,0 +1,7 @@
+---
+applications:
+- name: prafulla-boot17
+  memory: 1G
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  path: lab-1-boot-solution/target/lab-1-boot-solution1.jar
+  
