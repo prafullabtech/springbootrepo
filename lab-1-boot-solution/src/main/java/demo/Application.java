@@ -27,7 +27,6 @@ public class Application {
     @PostConstruct
 	public void init() {
 		List<Team> list = new ArrayList<>();
-
 		Set<Player> set = new HashSet<>();
 		set.add(new Player("Big Easy", "Showman"));
 		set.add(new Player("Buckets", "Guard"));
